@@ -12,7 +12,8 @@ function Video({ size, children }) {
     zIndex: "-1",
   };
   return (
-    <video style={Videostyle} autoPlay loop playsInline>
+    // muted
+    <video style={Videostyle} autoPlay loop playsInline muted>
       {children}
     </video>
   );

@@ -73,8 +73,8 @@ const MakeOrder = () => {
             Place Your Order
           </Typography>
           <p>
-            הכלים מיוצרים בעבודת יד ובקצב היצירה שלי, קבלת הזמנות תלויה בזמינות{" "}
-            <br />
+            הפריטים מיוצרים בעבודת יד ובקצב היצירה שלי, קבלת הזמנות תלויה
+            בזמינות <br />
             Items are handmade and made at my creativity pace. Accepting orders
             depends on availability.
             <br />

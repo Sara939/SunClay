@@ -4,6 +4,8 @@ import or from "../../assets/or.mp4";
 import Container from "../../UI/Container";
 import cover from "../../assets/cover.png";
 import ButtonXtra from "../../UI/Button";
+import clay from "../../assets/clay.jpg";
+import Typography from "@mui/material/Typography";
 
 function Header({ aboutRef, catalogRef, orderRef }) {
   const handleScroll = (ref) => {
@@ -14,7 +16,7 @@ function Header({ aboutRef, catalogRef, orderRef }) {
   return (
     <div style={{ display: "flex" }}>
       <Video>
-        <source src={or} type="video/mp4" />
+        <source src={or} type="video/mp4" poster={clay} />
       </Video>
       <img
         src={cover}
@@ -28,16 +30,17 @@ function Header({ aboutRef, catalogRef, orderRef }) {
         style={{
           height: "15%",
           overflowY: "scroll",
+          display: "none",
         }}
       >
         <ButtonXtra onClick={() => handleScroll(aboutRef)}>
-          <p>About Me</p>
+          <Typography variant="body2">About Me</Typography>
         </ButtonXtra>
         <ButtonXtra onClick={() => handleScroll(catalogRef)}>
-          <p>Catalog</p>
+          <Typography variant="body2">Catalog</Typography>
         </ButtonXtra>
         <ButtonXtra onClick={() => handleScroll(orderRef)}>
-          <p>Order Now</p>
+          <Typography variant="body2">Order Now</Typography>
         </ButtonXtra>
       </Container>
     </div>

@@ -28,13 +28,41 @@ export default function AboutMe() {
             textOverflow: { xs: "clip", sm: "clip", md: "clip" },
           }}
         >
-          <Typography variant="h4" component="h1" gutterBottom>
+          <Typography
+            variant="h4"
+            component="h1"
+            gutterBottom
+            sx={{
+              fontSize: {
+                xs: "1rem",
+                sm: "1.8rem",
+              },
+            }}
+          >
             Nice to meet you
           </Typography>
-          <Typography variant="h6" color="text.secondary" gutterBottom>
+          <Typography
+            variant="h6"
+            color="text.secondary"
+            gutterBottom
+            sx={{
+              fontSize: {
+                xs: "1rem",
+                sm: "1.4rem",
+              },
+            }}
+          >
             Hi, I'm Sara :) A software developer & Ceramic artist{" "}
           </Typography>
-          <Typography variant="body1">
+          <Typography
+            variant="body1"
+            sx={{
+              fontSize: {
+                xs: "0.5rem",
+                sm: "1rem", // 24px on medium screens
+              },
+            }}
+          >
             Alongside the technological world I have found a place for
             creativity and peace through pottery. a hobby that has become a
             space for breathing: through material,through process, and working
@@ -80,9 +108,17 @@ export default function AboutMe() {
           <img
             src={profile}
             alt="profile"
-            style={{ width: "95%", borderRadius: "20px", margin: "20px" }}
+            style={{ width: "95%", borderRadius: "20px" }}
           />
-          <Typography variant="body1">
+          <Typography
+            variant="body1"
+            sx={{
+              fontSize: {
+                xs: "0.5rem",
+                sm: "1rem", // 24px on medium screens
+              },
+            }}
+          >
             שמי שרה, בת 34 ומתגוררת בפרדס חנה כרכור. במקצועי אני מפתחת תוכנה,
             והקדרות עבורי היא מזון לנשמה ! זוהי הדרך שלי להתחבר לתרבות
             ולהיסטוריה עתיקה שמלווה את האנושות במשך אלפי שנים ובעיקר לעצמי. אני

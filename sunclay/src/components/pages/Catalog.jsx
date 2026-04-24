@@ -23,7 +23,7 @@ function Catalog() {
         itemText={
           "Handcrafted small planters, thoughtfully designed for plant cuttings with a unique personal touch. Each piece is slightly different, making every planter one of a kind. Perfect for nurturing young plants while adding a natural, calming accent to any space.A beautiful step in your plant’s journey—before it finds its forever pot."
         }
-        itemTitle={"Sky Mug"}
+        itemTitle={"Green- ירוק"}
         itemImage={main}
         itemSub={"Planter. On Stack"}
       />
@@ -40,7 +40,7 @@ function Catalog() {
         itemText={
           "Handcrafted small planters, thoughtfully designed for plant cuttings with a unique personal touch. Each piece is slightly different, making every planter one of a kind. Perfect for nurturing young plants while adding a natural, calming accent to any space.A beautiful step in your plant’s journey—before it finds its forever pot."
         }
-        itemTitle={"Sky Mug"}
+        itemTitle={"Comfort- נחמה"}
         itemImage={p3}
         itemSub={"Planter. On Stack"}
       />
@@ -48,7 +48,7 @@ function Catalog() {
         itemText={
           "Handcrafted small planters, thoughtfully designed for plant cuttings with a unique personal touch. Each piece is slightly different, making every planter one of a kind. Perfect for nurturing young plants while adding a natural, calming accent to any space.A beautiful step in your plant’s journey—before it finds its forever pot."
         }
-        itemTitle={"Sand Mug"}
+        itemTitle={"Desert- מדבר"}
         itemImage={p}
         itemSub={"Planter. On Stack"}
       />
@@ -56,7 +56,7 @@ function Catalog() {
         itemText={
           "Handcrafted small planters, thoughtfully designed for plant cuttings with a unique personal touch. Each piece is slightly different, making every planter one of a kind. Perfect for nurturing young plants while adding a natural, calming accent to any space.A beautiful step in your plant’s journey—before it finds its forever pot."
         }
-        itemTitle={"Sky Mug"}
+        itemTitle={"Sand- חול"}
         itemImage={p1}
         itemSub={"Planter. On Stack"}
       />
@@ -64,7 +64,7 @@ function Catalog() {
         itemText={
           "Handcrafted ceramic mug,uniquely designed with a personal touch. Each piece is slightly different, making every mug one of a kind. Perfectly suited for enjoying coffee or tea in style.No two mugs tell the same story—find the one that speaks to you."
         }
-        itemTitle={"Sun Mug"}
+        itemTitle={"Sky- שמיים"}
         itemImage={m1}
         itemSub={"Handmade Mug. On Stack"}
       />

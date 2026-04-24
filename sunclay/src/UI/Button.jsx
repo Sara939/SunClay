@@ -14,7 +14,13 @@ function ButtonXtra({ children, ...props }) {
   };
 
   return (
-    <Button variant="contained" color="black" style={buttonStyle} {...props}>
+    <Button
+      variant="contained"
+      color="black"
+      style={buttonStyle}
+      {...props}
+      sx={{ display: { xs: "none", sm: "inline", ms: "inline" } }}
+    >
       {children}
     </Button>
   );
