@@ -1,6 +1,6 @@
 import React from "react";
 
-function Video({ size, children }) {
+function Video({ poster, children }) {
   const Videostyle = {
     borderRadius: "4px",
     border: "none",
@@ -13,7 +13,7 @@ function Video({ size, children }) {
   };
   return (
     // muted
-    <video style={Videostyle} autoPlay loop playsInline muted>
+    <video style={Videostyle} autoPlay loop playsInline muted poster={poster}>
       {children}
     </video>
   );

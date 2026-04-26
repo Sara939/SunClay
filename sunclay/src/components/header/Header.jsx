@@ -4,7 +4,7 @@ import or from "../../assets/or.mp4";
 import Container from "../../UI/Container";
 import cover from "../../assets/cover.png";
 import ButtonXtra from "../../UI/Button";
-import clay from "../../assets/clay.jpg";
+import clay from "../../../public/clay.jpg";
 import Typography from "@mui/material/Typography";
 
 function Header({ aboutRef, catalogRef, orderRef }) {
@@ -15,8 +15,8 @@ function Header({ aboutRef, catalogRef, orderRef }) {
 
   return (
     <div style={{ display: "flex" }}>
-      <Video>
-        <source src={or} type="video/mp4" poster={clay} />
+      <Video poster={clay}>
+        <source src={or} type="video/mp4" />
       </Video>
       <img
         src={cover}

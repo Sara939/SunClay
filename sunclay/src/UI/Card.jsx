@@ -16,7 +16,7 @@ export default function CardItem({ itemText, itemTitle, itemImage, itemSub }) {
 
   const handleShare = () => {
     const url = encodeURIComponent(window.location.href);
-    const text = encodeURIComponent("Check out my site: ");
+    const text = encodeURIComponent("Check out this site: ");
     window.open(`https://wa.me/?text=${text}${url}`, "_blank");
   };
 
